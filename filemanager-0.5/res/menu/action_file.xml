@@ -19,14 +19,15 @@
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    
+
     <item
         android:id="@+id/action_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:icon="@android:drawable/ic_menu_share"
         android:orderInCategory="0"
         android:showAsAction="ifRoom"
         android:title="@string/share"
-        android:actionProviderClass="android.widget.ShareActionProvider"
-        android:visible="true"/>
+        android:visible="true" />
     
     <item
         android:id="@+id/action_cut"
@@ -66,5 +67,13 @@
         android:showAsAction="ifRoom"
         android:icon="@drawable/ic_about"
         android:title="@string/file_info"/>
+
+    <item
+        android:id="@+id/action_collect"
+        android:icon="@drawable/ic_copy"
+        android:orderInCategory="50"
+        android:showAsAction="ifRoom"
+        android:title="@string/collect"
+        android:visible="true"/>
 
 </menu>

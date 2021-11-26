@@ -50,6 +50,7 @@
     <string name="refresh">Refresh</string>
     <string name="copy">Copy</string>
     <string name="objects_copied_to_clipboard">Objects copied to clipboard</string>
+    <string name="objects_collected_to_clipboard">Objects collected</string>
     <string name="create_folder">Create folder</string>
     <string name="create">Create</string>
     <string name="folder_created_successfully">Folder created successfully</string>
@@ -78,5 +79,6 @@
     <string name="feedback">Feedback</string>
     <string name="file_info">File info</string>
     <string name="mime_type_s">MIME Type: %s</string>
+    <string name="collect">collect</string>
 
 </resources>
